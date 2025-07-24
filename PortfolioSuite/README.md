@@ -1,117 +1,136 @@
+<div align="center">
 
 # Professional Portfolio & Resume Website
 
-This is a modern, high-performance, and accessible personal portfolio website built to showcase professional experience, projects, and skills. It features a clean design, smooth animations, and a dark mode toggle.
+A modern, high-performance, and accessible personal portfolio website built with React, TypeScript, and Tailwind CSS.
 
-This project is licensed under the MIT License and maintained by [Opselon](https://github.com/Opselon).
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+![GitHub last commit](https://img.shields.io/github/last-commit/Opselon/PortfolioSuite)
+![Repo Size](https://img.shields.io/github/repo-size/Opselon/PortfolioSuite)
 
-## Live Demo & Preview
+</div>
+
+<p align="center">
+  <a href="#-live-demo">Live Demo</a> •
+  <a href="#-features">Features</a> •
+  <a href="#-tech-stack">Tech Stack</a> •
+  <a href="#-getting-started">Getting Started</a> •
+  <a href="#-customization">Customization</a> •
+  <a href="#-connect-with-me">Connect with Me</a>
+</p>
+
+---
+
+## 📸 Live Demo
 
 ![PortfolioSuite Live Demo](https://github.com/Opselon/PortfolioSuite/blob/main/PortfolioSuite/images/website.gif?raw=true)
 
-## Tech Stack
+---
 
-- **Framework:** React 18+
-- **Language:** TypeScript
-- **AI:** Google Gemini API (`@google/genai`)
-- **Styling:** Tailwind CSS (via CDN with JIT compilation)
-- **Animations:** Framer Motion
-- **Build Tool:** Vite (or any other modern React setup)
+## ✨ Features
 
-## Features
+- **Component-Driven Architecture:** Small, reusable, and maintainable components for a clean codebase.
+- **Centralized Data:** Easily update all portfolio content from a single `resumeData.ts` file.
+- **Fully Responsive:** A beautiful and functional layout on all devices, with a slide-in mobile navigation.
+- **Interactive AI Art Generator:** Generate images from text prompts using the Google Gemini API in a sleek modal.
+- **Persistent Dark Mode:** A user-friendly dark mode toggle that respects user preference via local storage.
+- **Smooth Animations:** Subtle, physics-based animations powered by Framer Motion enhance the user experience.
+- **Accessibility (A11y) Focused:** Built with semantic HTML, ARIA attributes, and keyboard navigation.
+- **Performance Optimized:** Lazy rendering of sections ensures a fast initial load and a smooth user experience.
 
-- **Component-Driven Architecture:** The UI is broken down into small, reusable, and maintainable components.
-- **Centralized Data:** All portfolio content is managed from a single `resumeData.ts` file, making updates easy.
-- **Responsive Design:** Fully responsive layout with a slide-in mobile navigation menu.
-- **Interactive AI Art Generator:** A project card that opens a modal to generate images from text prompts using the Google Gemini API.
-- **Dark Mode:** A sleek, user-friendly dark mode that can be toggled and is saved in local storage.
-- **Smooth Animations:** Subtle, physics-based animations powered by Framer Motion to enhance user experience.
-- **Accessibility (A11y):** Built with accessibility in mind, using semantic HTML, ARIA attributes, and keyboard navigation.
-- **Performance Optimized:** Deferred rendering of components to ensure a fast initial user experience.
-- **Dynamic Content:** Features like a "typing" effect in the hero section add a dynamic touch.
+## 🛠️ Tech Stack
 
-## Project Structure
+| Technology | Description |
+| :--- | :--- |
+| **React 18** | A modern JavaScript library for building user interfaces. |
+| **TypeScript** | Static typing for robust and scalable application development. |
+| **Tailwind CSS** | A utility-first CSS framework for rapid UI development. |
+| **Framer Motion** | A production-ready motion library for creating fluid animations. |
+| **Vite** | Next-generation frontend tooling for a fast development experience. |
+| **Google Gemini API** | Powers the AI image generation feature. |
+
+## 📂 Project Structure
+
+The project is organized with a clear separation of concerns, making it easy to navigate and maintain.
 
 ```
 /
 ├── public/
-│   └── resume.pdf      # Placeholder for your resume PDF
-├── LICENSE             # MIT License file
-├── index.html          # Main HTML entry point
-├── README.md           # This file
-├── metadata.json       # App metadata
+│   └── resume.pdf      # Your resume PDF
+├── LICENSE
+├── index.html
+├── README.md
 ├── App.tsx             # Main application component
-├── index.tsx           # React root renderer
-├── types.ts            # Global TypeScript types
 ├── components/         # Reusable UI components
-│   ├── AiImageModal.tsx
-│   ├── Contact.tsx
-│   ├── Experience.tsx
-│   ├── Header.tsx
-│   ├── Hero.tsx
-│   ├── icons/
-│   │   └── Icon.tsx
-│   ├── LazyRender.tsx
-│   ├── ProjectCard.tsx
-│   ├── Projects.tsx
-│   ├── Section.tsx
-│   ├── SkillBadge.tsx
-│   ├── Skills.tsx
-│   ├── ThemeToggle.tsx
-│   └── TimelineItem.tsx
 ├── data/
 │   └── resumeData.ts   # All personal data for the portfolio
-├── hooks/
-│   ├── useOnScreen.ts
-│   ├── useTheme.ts
-│   └── useTypingEffect.ts
-└── lib/
-    └── utils.ts        # Utility functions
+├── hooks/              # Custom React hooks
+└── lib/                # Utility functions
 ```
 
-## Getting Started
+## 🚀 Getting Started
 
-Follow these instructions to get the project up and running on your local machine.
+Follow these instructions to get the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
 
-You need to have Node.js and a package manager like npm or yarn installed.
-
-To use the AI Image Generator, you must have a Google Gemini API key.
+- [Node.js](https://nodejs.org/) (v18 or later recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+- A **Google Gemini API Key** for the AI feature.
 
 ### Installation
 
-1.  Clone the repository:
+1.  **Clone the repository:**
     ```sh
-    git clone https://github.com/Opselon/professional-portfolio.git
-    cd professional-portfolio
+    git clone https://github.com/Opselon/PortfolioSuite.git
+    cd PortfolioSuite/PortfolioSuite
     ```
-2.  Install the required dependencies:
+
+2.  **Install dependencies:**
     ```sh
     npm install
     ```
-3.  Set up your environment variables. Create a `.env` file in the root of the project and add your API key:
+
+3.  **Set up environment variables:**
+    Create a `.env` file in the project root (`PortfolioSuite/PortfolioSuite`) and add your API key:
     ```
     VITE_API_KEY=YOUR_GEMINI_API_KEY
     ```
-    The application uses `process.env.API_KEY` which Vite makes available from `.env` files.
 
 ### Running the Development Server
 
-Once the dependencies are installed, you can start the development server:
+Start the Vite development server:
 
 ```sh
 npm run dev
 ```
 
-This will start the Vite development server, and you can view the application by navigating to `http://localhost:5173` (or the URL provided in your terminal).
+Open your browser and navigate to `http://localhost:5173` (or the URL provided in your terminal).
 
-### Customization
+## 🎨 Customization
 
-1.  **Content:** Edit `src/data/resumeData.ts` to replace the placeholder information with your own experience, projects, and skills.
-2.  **Resume:** Place your resume in PDF format in the `public/` directory and name it `resume.pdf`.
-3.  **Styling:** Modify the Tailwind CSS configuration within the `<script>` tag in `index.html` to change colors, fonts, or other theme settings.
+Making this portfolio your own is simple:
 
-## License
+1.  **Edit Content:** Open `src/data/resumeData.ts` and replace the placeholder information with your personal details, experience, projects, and skills.
+2.  **Add Your Resume:** Place your resume in PDF format inside the `public/` directory and ensure it is named `resume.pdf`.
+3.  **Change Theme:** Modify colors, fonts, or other theme settings directly in the `<script>` tag of `index.html` where the Tailwind CSS configuration is located.
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/Opselon/PortfolioSuite/issues).
+
+## 💖 Show Your Support
+
+If you like this project, please give it a ⭐ on GitHub! It helps motivate me to continue creating and sharing.
+
+## 👤 Connect with me
+
+<p align="left">
+<a href="https://github.com/Opselon" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="Opselon" height="30" width="40" /></a>
+<a href="YOUR_LINKEDIN_URL" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Your LinkedIn" height="30" width="40" /></a>
+<a href="YOUR_TWITTER_URL" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="Your Twitter" height="30" width="40" /></a>
+</p>
+
+## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

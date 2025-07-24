@@ -1,0 +1,125 @@
+<!--
+  Copyright 2024 Opselon
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+
+  For more information, see: https://github.com/Opselon/PortfolioSuite/
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artisan Flavors Restaurant</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Lato:wght@400;500&family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
+    <script>
+      // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+      if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark')
+      } else {
+        document.documentElement.classList.remove('dark')
+      }
+    </script>
+    <style>
+      body {
+        font-family: 'Lato', sans-serif;
+      }
+      .font-vazir {
+        font-family: 'Vazirmatn', sans-serif;
+      }
+      .font-playfair {
+        font-family: 'Cormorant Garamond', serif;
+      }
+      @keyframes float {
+        0% { transform: translateY(0px) rotate(0deg) scale(1); }
+        50% { transform: translateY(-25px) rotate(6deg) scale(1.03); }
+        100% { transform: translateY(0px) rotate(0deg) scale(1); }
+      }
+      @keyframes float-reverse {
+        0% { transform: translateY(0px) rotate(0deg) scale(1); }
+        50% { transform: translateY(25px) rotate(-6deg) scale(1.03); }
+        100% { transform: translateY(0px) rotate(0deg) scale(1); }
+      }
+      .animate-float {
+        animation: float 10s ease-in-out infinite;
+      }
+      .animate-float-reverse {
+        animation: float-reverse 12s ease-in-out infinite;
+      }
+
+      /* Styles for 3D effects */
+      .perspective-container {
+        height: 100vh;
+        overflow-x: hidden;
+        overflow-y: auto;
+        perspective: 2px;
+        perspective-origin: center;
+      }
+
+      .interactive-card {
+        transition: transform 0.5s ease-in-out;
+      }
+      .glare {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 150px;
+        height: 150px;
+        background: radial-gradient(circle, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 80%);
+        transform: translate(-50%, -50%);
+        pointer-events: none;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+      }
+      .dark .glare {
+        background: radial-gradient(circle, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0) 80%);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react/": "https://esm.sh/react@^19.1.0/"
+  }
+}
+</script>
+<script>
+  tailwind.config = {
+    darkMode: 'class',
+    theme: {
+      extend: {
+        colors: {
+          'cream-white': '#F9F6F0',
+          'light-cream': '#F0EAD6',
+          'forest-green': '#2A4033',
+          'dark-forest': '#1C2B22',
+          'light-moss': '#DDE0D7',
+          'pine-bark': '#3D4F45',
+          'brass-accent': '#B89F5D',
+        }
+      }
+    }
+  }
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
