@@ -1,12 +1,3 @@
-Of course! Here is a modernized, polished, and visually appealing version of your README.
-
-This update uses emojis for scannability, badges for at-a-glance info, a more dynamic structure, and clearer calls to action. It's designed to be professional, inviting, and easy for new users to navigate.
-
-Just copy and paste the entire block below into your `README.md` file.
-
----
-
-```markdown
 <div align="center">
 
 <!-- Optional: You can uncomment this and add a logo or banner image -->
@@ -113,4 +104,3 @@ See the [LICENSE](LICENSE) file for the full legal text.
   <p>Maintained by <strong><a href="https://github.com/Opselon">Opselon</a></strong></p>
   <p>⭐ Star this repo if you find it useful! ⭐</p>
 </div>
-```
