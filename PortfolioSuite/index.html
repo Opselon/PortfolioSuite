@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Professional Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              primary: {
+                DEFAULT: 'hsl(210, 40%, 50%)',
+                light: 'hsl(210, 40%, 60%)',
+                dark: 'hsl(210, 40%, 40%)',
+              },
+              secondary: {
+                DEFAULT: 'hsl(180, 50%, 45%)',
+                light: 'hsl(180, 50%, 55%)',
+                dark: 'hsl(180, 50%, 35%)',
+              },
+              accent: {
+                DEFAULT: 'hsl(30, 90%, 55%)',
+                light: 'hsl(30, 90%, 65%)',
+                dark: 'hsl(30, 90%, 45%)',
+              },
+              'dark-bg': 'hsl(222, 47%, 11%)',
+              'dark-card': 'hsl(222, 45%, 15%)',
+              'dark-text': 'hsl(210, 20%, 85%)',
+              'light-bg': 'hsl(0, 0%, 98%)',
+              'light-card': 'hsl(0, 0%, 100%)',
+              'light-text': 'hsl(222, 20%, 25%)',
+            },
+            fontFamily: {
+              heading: ['Montserrat', 'sans-serif'],
+              body: ['Poppins', 'sans-serif'],
+            },
+          },
+        },
+      }
+    </script>
+    <style>
+      /* Simple scrollbar styling for a more modern look */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+      .dark ::-webkit-scrollbar-track {
+        background: hsl(222, 45%, 15%);
+      }
+      ::-webkit-scrollbar-thumb {
+        background: hsl(210, 40%, 70%);
+        border-radius: 10px;
+      }
+      .dark ::-webkit-scrollbar-thumb {
+        background: hsl(210, 40%, 40%);
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: hsl(210, 40%, 60%);
+      }
+      .dark ::-webkit-scrollbar-thumb:hover {
+        background: hsl(210, 40%, 50%);
+      }
+      .no-scroll {
+        overflow: hidden;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://esm.sh/@google/genai",
+    "framer-motion": "https://esm.sh/framer-motion@^12.23.9",
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/"
+  }
+}
+</script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-light-bg text-light-text dark:bg-dark-bg dark:text-dark-text font-body transition-colors duration-300">
+    <div id="root"></div>
+    <script type="text/babel" data-presets="react,typescript" src="./index.tsx"></script>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
