@@ -5,6 +5,10 @@ This is a modern, high-performance, and accessible personal portfolio website bu
 
 This project is licensed under the MIT License and maintained by [Opselon](https://github.com/Opselon).
 
+## Live Demo & Preview
+
+![PortfolioSuite Live Demo](https://github.com/Opselon/PortfolioSuite/blob/main/PortfolioSuite/images/website.gif?raw=true)
+
 ## Tech Stack
 
 - **Framework:** React 18+
