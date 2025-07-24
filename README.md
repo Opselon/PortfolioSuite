@@ -28,16 +28,6 @@ Welcome to **PortfolioSuite**! This repository is a growing collection of free, 
 
 Browse our collection of templates below. Each template lives in its own directory and has a dedicated README with setup instructions and a live demo link.
 
-| Template | Live Demo | Description | Core Technologies | Source Code |
-| :--- | :---: | :--- | :--- | :---: |
-| **Nosh-e-Jan** | [Live Demo&nbsp;→](https://your-demo-link-here.com) | An interactive recipe hub with AI features & bilingual support. | ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white) | [`[Code]`](./nosh-e-jan/) |
-| **Digital Architect** | [Live Demo&nbsp;→](https://your-demo-link-here.com) | A futuristic portfolio for developers using 3D and animation. | ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white) ![React Three Fiber](https://img.shields.io/badge/R3F-000000?logo=three.js&logoColor=white) ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?logo=framer&logoColor=white) | [`[Code]`](./digital-architect/) |
-| <!-- Add New Templates Here --> | | | | |
-
-*(This table will be updated as new templates are added.)*
-
----
-
 ## 🚀 How to Use a Template
 
 Getting started is simple:
