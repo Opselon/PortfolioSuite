@@ -4,7 +4,7 @@ This is the codebase for a modern, elegant, and fully responsive website for "Ar
 
 It is designed to be easily customizable, even for those with minimal coding experience.
 
-![PortfolioSuite Live Demo](https://github.com/Opselon/PortfolioSuite/blob/artisan-flavors-restaurant/demo/demo.gif?raw=true)
+![PortfolioSuite Live Demo](https://github.com/Opselon/PortfolioSuite/blob/main/artisan-flavors-restaurant/demo/demo.gif?raw=true)
 
 ## ✨ Key Features
 
