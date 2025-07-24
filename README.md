@@ -1,46 +1,46 @@
 <div align="center">
 
-<!-- Optional: You can uncomment this and add a logo or banner image -->
-<!-- <img src="URL_TO_YOUR_LOGO_OR_BANNER" alt="PortfolioSuite Banner" width="800"/> -->
+# PortfolioSuite: 30+ Free TypeScript & Next.js UI Templates
 
-# PortfolioSuite
-
-**Your next project starts here. A curated collection of free, open-source, and production-ready website templates.**
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Opselon/PortfolioSuite/pulls)
+[![GitHub Issues](https://img.shields.io/github/issues/Opselon/PortfolioSuite)](https://github.com/Opselon/PortfolioSuite/issues)
+[![GitHub Stars](https://img.shields.io/github/stars/Opselon/PortfolioSuite?style=social)](https://github.com/Opselon/PortfolioSuite/stargazers)
 
 </div>
 
+## 📖 About: 30+ Free TypeScript UI Templates
+
+**PortfolioSuite** is your ultimate library of **30+ free, open-source UI templates**, meticulously built with **TypeScript**, **Next.js**, **React**, and **Tailwind CSS**. This repository offers a comprehensive suite of responsive, modern, and production-ready **website templates**, **landing pages**, and **portfolio starters**.
+
+Whether you're a developer looking to accelerate your workflow or a designer seeking pixel-perfect themes, PortfolioSuite provides the perfect foundation for your next web project.
+
+*   **🌐 Project Website:** [**opselon.github.io/PortfolioSuite**](https://opselon.github.io/PortfolioSuite/)
+*   **📂 Topics:** `typescript`, `react`, `nextjs`, `tailwindcss`, `templates`, `free`, `opensource`, `ui-design`, `website-template`, `landing-page`, `portfolio-template`, `typescript-templates`, `nextjs-boilerplate`, `tailwind-css-templates`, `react-templates`, `free-website-templates`, `ui-kits`, `responsive-design`, `developer-tools`
+
 ---
 
-Welcome to **PortfolioSuite**! This repository is a growing collection of beautifully designed website templates, completely free for personal and commercial use under the [MIT License](#📜-license).
-
-Our goal is to provide developers, designers, and creators with high-quality, modern starting points that accelerate their projects and inspire creativity.
-
-## ✨ Why PortfolioSuite?
+## ✨ Core Features
 
 | Feature                 | Description                                                                                                                              |
 | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| **🚀 Modern Stack**       | Built with future-proof technologies like **React, Next.js, TypeScript, and Tailwind CSS** for a great developer experience.               |
-| **🎨 Design First**      | Meticulously crafted with a strong focus on clean UI, fluid UX, and polished animations.                                                 |
-| **💸 100% Free**         | Truly open-source. No hidden fees, no "premium" versions, no attribution required. Just clone and create.                                 |
-| **🧩 Easy to Customize** | Clean, well-documented, and component-based code that makes customization and extension a breeze.                                          |
+| **🚀 Modern TypeScript Stack** | Built with future-proof technologies like **TypeScript, Next.js, React, and Tailwind CSS** for a superior developer experience and type-safety. |
+| **🎨 Professional UI/UX** | Meticulously crafted with a strong focus on clean UI, fluid user experience, and polished animations right out of the box.              |
+| **📚 30+ Template Library** | Access a massive, growing library of **over 30 diverse templates**, from personal portfolios to SaaS landing pages and more.             |
+| **💸 100% Free & Open Source** | Truly open-source under the MIT license. No hidden fees, no "premium" versions, and no attribution required. Just clone and create. |
+| **🧩 Easy to Customize** | Clean, well-documented, and component-based code that makes customization, extension, and deployment a breeze.                            |
 
 ---
 
-## 📂 The Templates
+## 📂 The Template Collection
 
-Browse our collection below. Each template includes a live demo and is ready to be deployed.
-
-<!--
-➡️ HOW TO ADD A NEW TEMPLATE:
-1. Copy the existing table row.
-2. Replace the placeholder content with your template's details.
-3. Add a 600x400 screenshot of your template to its directory and link it in the `Preview` column.
+Explore our extensive collection of **30+ free TypeScript UI templates**. Each template is a self-contained project located in its own directory. Dive into any folder to find a detailed `README.md`, setup instructions, and a link to a live demo.
 
 ---
 
-## 🏁 Getting Started
+## 🏁 Getting Started in 3 Steps
 
-Ready to use a template? It only takes a few minutes.
+Launch a new project in minutes with any of our free templates.
 
 1.  **Clone the Repository**
     ```bash
@@ -48,10 +48,10 @@ Ready to use a template? It only takes a few minutes.
     ```
 
 2.  **Navigate to a Template**
-    `cd` into the directory of the template you want to use.
+    `cd` into the directory of your chosen **TypeScript UI template**.
     ```bash
-    # Example using the 'nosh-e-jan' template
-    cd PortfolioSuite/nosh-e-jan
+    # Example for a Next.js and Tailwind CSS template:
+    cd PortfolioSuite/nextjs-typescript-template-name
     ```
 
 3.  **Install & Run**
@@ -69,19 +69,19 @@ Ready to use a template? It only takes a few minutes.
 
 ## 🤝 How to Contribute
 
-This is a community-driven project, and contributions are highly welcome! Whether you want to fix a bug, improve a template, or add a brand new one, we'd love your help.
+This is a community-driven project aiming to build the best collection of **free TypeScript templates**. Contributions are highly welcome!
 
 1.  **Fork** the repository.
-2.  **Create a new branch** (`git checkout -b feature/YourAmazingTemplate`).
-3.  **Commit your changes** (`git commit -m 'Add: YourAmazingTemplate'`).
-4.  **Push to the branch** (`git push origin feature/YourAmazingTemplate`).
+2.  **Create a new branch** (`git checkout -b feature/NewAwesomeTemplate`).
+3.  **Commit your changes** (`git commit -m 'Add: New awesome TypeScript template'`).
+4.  **Push to the branch** (`git push origin feature/NewAwesomeTemplate`).
 5.  **Open a Pull Request**.
 
 Please read our `CONTRIBUTING.md` guide for more details.
 
 ## 📜 License
 
-All templates in the **PortfolioSuite** repository are released under the **MIT License**.
+All **30+ templates** in the PortfolioSuite repository are released under the **MIT License**.
 
 This means you are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software for any purpose, including commercial projects. Attribution is not required, but a link back to this repository is greatly appreciated!
 
@@ -91,5 +91,5 @@ See the [LICENSE](LICENSE) file for the full legal text.
 
 <div align="center">
   <p>Maintained by <strong><a href="https://github.com/Opselon">Opselon</a></strong></p>
-  <p>⭐ Star this repo if you find it useful! ⭐</p>
+  <p>⭐ Star this repo if you love free, high-quality TypeScript templates! ⭐</p>
 </div>
