@@ -7,11 +7,6 @@
 
 **Your next project starts here. A curated collection of free, open-source, and production-ready website templates.**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Opselon/PortfolioSuite/pulls)
-[![GitHub Issues](https://img.shields.io/github/issues/Opselon/PortfolioSuite)](https://github.com/Opselon/PortfolioSuite/issues)
-[![GitHub Stars](https://img.shields.io/github/stars/Opselon/PortfolioSuite?style=social)](https://github.com/Opselon/PortfolioSuite/stargazers)
-
 </div>
 
 ---
