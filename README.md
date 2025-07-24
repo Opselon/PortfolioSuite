@@ -35,12 +35,6 @@ Browse our collection below. Each template includes a live demo and is ready to 
 1. Copy the existing table row.
 2. Replace the placeholder content with your template's details.
 3. Add a 600x400 screenshot of your template to its directory and link it in the `Preview` column.
--->
-
-| Preview                                                                                                  | Template                                                     | Description                                   | Tech Stack                            | Live Demo & Code                                                                                                                                      |
-| -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------- | ------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a href="./nosh-e-jan"><img src="./nosh-e-jan/screenshot.png" alt="Nosh-e-Jan Preview" width="300"/></a>    | **[Nosh-e-Jan](./nosh-e-jan)**                               | A modern landing page for a restaurant.       | `Next.js` `TypeScript` `Tailwind CSS` | [![Live Demo](https://img.shields.io/badge/-Live_Demo-2ea44f?style=for-the-badge)](https://your-demo-link.com) [![Code](https://img.shields.io/badge/-Code-007ACC?style=for-the-badge)](./nosh-e-jan)          |
-| <a href="./your-template-folder"><img src="https://via.placeholder.com/600x400/1D1F21/FFFFFF/?text=Your+Template" alt="Template Preview" width="300"/></a> | **[Your Awesome Template](./your-template-folder)**          | A short, catchy description of your template. | `React` `Vite` `SCSS`                 | [![Live Demo](https://img.shields.io/badge/-Live_Demo-2ea44f?style=for-the-badge)](https://your-demo-link.com) [![Code](https://img.shields.io/badge/-Code-007ACC?style=for-the-badge)](./your-template-folder) |
 
 ---
 
